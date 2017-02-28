@@ -1,0 +1,160 @@
+= KillerTips APIs
+
+== Accounts API
+
+==== Create account
+    POST: /api/v1/accounts/create
+
+    parameters accepted
+      email:          String *required
+      password:       String *required minimum 6
+
+      curl \
+        -F "email=tester2@email.com" \
+        -F "password=tester2" \
+        http://localhost:3000/api/v1/accounts/create
+      results:
+      {"status": 1, "data":"zqTgTKo7WJGgnFxDTRVN"}
+
+==== Destroy account API
+    POST: /api/v1/accounts/destroy
+    parameters:
+      token:      String *required
+    results:
+      return sign out and success string
+
+    curl \
+      -F "token=5cWP-hzoRktqg5Qa-gNF" \
+      http://localhost:3000/api/v1/accounts/destroy
+
+==== Sign In(from app's account)
+
+    POST: /api/v1/accounts/sign_in
+
+    parameters accepted
+      'email'      String,      *required
+      'password'   String,      *requried
+    results:
+
+    curl \
+      -F "email=tester1@email.com" \
+      -F "password=tester1" \
+      http://localhost:3000/api/v1/accounts/sign_in
+
+
+==== Sign Out
+    POST: 'api/v1/accounts/sign_out'
+
+    parameters accepted
+    'email'      String,      *required
+
+    curl \
+      -F "email=tester1@email.com" \
+      http://localhost:3000/api/v1/accounts/sign_out
+
+==== Set device token
+    POST: /api/v1/accounts/set_device
+      Parameters accepted
+        token         String *
+        device_token  String *
+      Results
+        {status: 1, data: set device_token}
+
+==== Set Favourite
+    POST: /api/v1/accounts/set_favourite
+      Parameters accepted
+        token         String *
+        tip_id        String *
+        favourite     Boolean *
+      Results
+        {status: 1, data: set favourite}
+    curl \
+      -F "token=AwZ2jH_zhnzzssp9wG28" \
+      -F "tip_id=5790e69d3b27541d7c000000" \
+      -F "favourite=false" \
+      http://localhost:3000/api/v1/accounts/set_favourite
+==== Set read flag to tip
+      POST: /api/v1/accounts/set_read
+        Parameters accepted
+          token         String *
+          tip_id        String *
+          is_read       Boolean *
+        Results
+          {status: 1, data: set read flag}
+    curl \
+      -F "token=AwZ2jH_zhnzzssp9wG28" \
+      -F "tip_id=5790e69d3b27541d7c000000" \
+      -F "is_read=true" \
+      http://localhost:3000/api/v1/accounts/set_read
+
+==== Set purchased pack
+      POST: /api/v1/accounts/set_purchase
+        Parameters accepted
+          token         String *
+          pack_id        String *
+        Results
+          {status: 1, data: set purchased pack}
+      curl \
+        -F "token=AwZ2jH_zhnzzssp9wG28" \
+        -F "pack_id=578e371b3b2754121a000006" \
+        http://localhost:3000/api/v1/accounts/set_purchase
+==== Get purchased pack
+      GET: /api/v1/accounts/get_purchased_packs
+        Parameters accepted
+          token         String *
+          page_number   Integer
+        Results
+          {status: 1, data: {id,name,price,detail}}
+      curl \
+        -F "token=AwZ2jH_zhnzzssp9wG28" \
+        -F "page_number=1" \
+        http://localhost:3000/api/v1/accounts/get_purchased_packs
+
+==== Get unpurchased pack
+      GET: /api/v1/accounts/get_unpurchased_packs
+        Parameters accepted
+          token         String *
+          page_number   Integer
+        Results
+          {status: 1, data: {id,name,price,detail}}
+
+== Tips API
+==== Get all categories
+  GET: /api/v1/tips/categories
+    Parameters accepted
+      token         String *
+    Results
+      {status: 1, data: {id:category.id, name:category.name}}
+==== Get all tips
+      GET: /api/v1/tips
+        Parameters accepted
+          token         String *
+          category_id   String
+          favourite     Boolean
+          unread        Boolean
+          pack_id       String
+          page_number   Integer, default: 1
+          per_page      Integer, default: 15
+        Results
+          {status: 1, data: {id, title, favourited, description, photo, category, pack}}
+====   Find Tips by name
+      GET: /api/v1/tips/find
+        Parameters accepted
+          token         String *
+          key           String *
+          page_number   Integer default 1
+          per_page      Integer default 15
+        Results
+          {status: 1, data: {id, title, description, photo, category, pack}}`
+==== Get Terms
+    GET: /api/v1/accounts/terms
+      Parameters accepted
+      Results
+        {status: 1, data: {id, terms}}
+==== Get Tip Content
+    GET: /api/v1/tips/tip_content
+      Parameters accepted
+        token         String *
+        tip_id        String
+      Results
+        {status: 1, data: {id:tip.id, content:tip.content}}

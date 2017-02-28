@@ -1,0 +1,911 @@
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+
+Started GET "/" for ::1 at 2016-09-12 23:22:06 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (8.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15330ms (Views: 15264.0ms)
+
+
+Started GET "/assets/active_admin.self-737e3474f93d60655121498de949a33019e25494e983d632d96293b489599314.css?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/application.self-5eb867c4b814bb3f2e5d7340c77b0208ab6338beef057bdb0bff90758c967b16.css?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/devise_bootstrap_views.self-27fecd2f5ade961d11ec5c6b1ac07373b81689744c79677bae2a59db9216c508.css?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-09-12 23:22:21 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/flash.self-1f5bc4cd1a754a4a8cc8426c39e010bbd40c94351b30f9f636bd825f91d1659c.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-84d8cbe8c39a3a93a115c608dd8d13ee77513b4d6cbf36ccdd83c8517e567a94.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/per_page.self-b17e5cedf398d4a11ce64b7f85759b00b469bd20090c9cc3591698232cd5b5cc.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/popover.self-712c26739bba281c3dfa5a56a0a2ba29e951cdfe6626e66d0c4afe8b05c6f624.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin/application.self-3ee24c8b7a313a28f1352e08dc4dc31bd7d4489b6ad5f6331f1f42bbded33a50.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/summernote/summernote.self-60b626ffb7896eae7f720c0fb27b3e1846f17ca6c0253a4da54a25ebb00e0a9b.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/active_admin.self-e59108d41774c7637f6559f16b1b00c59e86f43247a159c348a09d518028208b.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-12 23:22:22 +0900
+
+
+Started GET "/admin" for ::1 at 2016-09-12 23:22:30 +0900
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/admin/login" for ::1 at 2016-09-12 23:22:30 +0900
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (2.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (85.9ms)
+Completed 200 OK in 506ms (Views: 503.8ms)
+
+
+Started GET "/assets/active_admin/print.self-5c206852f0fe857ce36dfdad2829ac6e88f8914a1f93bd8402a4bba5d20c8b16.css?body=1" for ::1 at 2016-09-12 23:22:31 +0900
+
+
+Started POST "/admin/login" for ::1 at 2016-09-12 23:22:46 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kQ7wP3xnzNrntrYjN4njH/LwvLOBw4XDQgfUXDMKP/dbeJPhap6A1PJvkAguv/hA57DCtKtoZgC6kYSpxXsaCQ==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 500 Internal Server Error in 30218ms
+
+Mongo::Error::NoServerAvailable (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x007f8f06a1d9d8 @tag_sets=[], @options={:database=>:killertips_development}, @server_selection_timeout=30>):
+  mongo (2.1.0.beta) lib/mongo/server_selector/selectable.rb:99:in `select_server'
+  mongo (2.1.0.beta) lib/mongo/collection/view/iterable.rb:38:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/query_cache.rb:207:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `block in first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:489:in `try_cache'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:239:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual.rb:20:in `first'
+  orm_adapter (0.5.0) lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'
+  devise (3.5.7) lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'
+  devise (3.5.7) lib/devise/models/authenticatable.rb:242:in `find_for_authentication'
+  devise (3.5.7) lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'
+  devise (3.5.7) lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'
+  warden (1.2.6) lib/warden/strategies/base.rb:53:in `_run!'
+  warden (1.2.6) lib/warden/proxy.rb:358:in `block in _run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `each'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `_run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.6) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (3.5.7) app/controllers/devise/sessions_controller.rb:17:in `create'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.8ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (196.1ms)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+
+Started GET "/" for ::1 at 2016-09-15 15:22:41 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (7.5ms)
+  Rendered layouts/_messages.html.erb (1.3ms)
+Completed 200 OK in 11697ms (Views: 11658.9ms)
+
+
+Started GET "/admin" for ::1 at 2016-09-15 15:22:53 +0900
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/admin/login" for ::1 at 2016-09-15 15:22:53 +0900
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (171.1ms)
+Completed 200 OK in 595ms (Views: 592.0ms)
+
+
+Started GET "/assets/active_admin.self-180aa814be70f49e00a796838c945ebaa6dcaf8bc5d4263c3a4ad26889c88ffa.css?body=1" for ::1 at 2016-09-15 15:22:53 +0900
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-15 15:22:53 +0900
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for ::1 at 2016-09-15 15:22:53 +0900
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for ::1 at 2016-09-15 15:22:53 +0900
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for ::1 at 2016-09-15 15:22:53 +0900
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/flash.self-1f5bc4cd1a754a4a8cc8426c39e010bbd40c94351b30f9f636bd825f91d1659c.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-84d8cbe8c39a3a93a115c608dd8d13ee77513b4d6cbf36ccdd83c8517e567a94.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/per_page.self-b17e5cedf398d4a11ce64b7f85759b00b469bd20090c9cc3591698232cd5b5cc.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/popover.self-712c26739bba281c3dfa5a56a0a2ba29e951cdfe6626e66d0c4afe8b05c6f624.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/application.self-3ee24c8b7a313a28f1352e08dc4dc31bd7d4489b6ad5f6331f1f42bbded33a50.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/summernote/summernote.self-60b626ffb7896eae7f720c0fb27b3e1846f17ca6c0253a4da54a25ebb00e0a9b.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin.self-e59108d41774c7637f6559f16b1b00c59e86f43247a159c348a09d518028208b.js?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started GET "/assets/active_admin/print.self-5c206852f0fe857ce36dfdad2829ac6e88f8914a1f93bd8402a4bba5d20c8b16.css?body=1" for ::1 at 2016-09-15 15:22:54 +0900
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 15:23:01 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dDJLuS6nMfADzRwBCe1FsB/m6ARYSX6niL0Gb1ojOEsZ8T/eaS4vTG8H2GsPzGlRcTIsTyvJuMds3Du9Px0qiA==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 500 Internal Server Error in 30228ms
+
+Mongo::Error::NoServerAvailable (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x007fbc652172e8 @tag_sets=[], @options={:database=>:killertips_development}, @server_selection_timeout=30>):
+  mongo (2.1.0.beta) lib/mongo/server_selector/selectable.rb:99:in `select_server'
+  mongo (2.1.0.beta) lib/mongo/collection/view/iterable.rb:38:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/query_cache.rb:207:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `block in first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:489:in `try_cache'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:239:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual.rb:20:in `first'
+  orm_adapter (0.5.0) lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'
+  devise (3.5.10) lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'
+  devise (3.5.10) lib/devise/models/authenticatable.rb:242:in `find_for_authentication'
+  devise (3.5.10) lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'
+  devise (3.5.10) lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'
+  warden (1.2.6) lib/warden/strategies/base.rb:53:in `_run!'
+  warden (1.2.6) lib/warden/proxy.rb:358:in `block in _run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `each'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `_run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.6) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (3.5.10) app/controllers/devise/sessions_controller.rb:17:in `create'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (111.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (243.2ms)
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 15:23:41 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dDJLuS6nMfADzRwBCe1FsB/m6ARYSX6niL0Gb1ojOEsZ8T/eaS4vTG8H2GsPzGlRcTIsTyvJuMds3Du9Px0qiA==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Completed 500 Internal Server Error in 30191ms
+
+Mongo::Error::NoServerAvailable (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x007fbc65f7ddb0 @tag_sets=[], @options={:database=>:killertips_development}, @server_selection_timeout=30>):
+  mongo (2.1.0.beta) lib/mongo/server_selector/selectable.rb:99:in `select_server'
+  mongo (2.1.0.beta) lib/mongo/collection/view/iterable.rb:38:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/query_cache.rb:207:in `each'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:240:in `block in first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:489:in `try_cache'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual/mongo.rb:239:in `first'
+  /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/mongoid-63ece9973709/lib/mongoid/contextual.rb:20:in `first'
+  orm_adapter (0.5.0) lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'
+  devise (3.5.10) lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'
+  devise (3.5.10) lib/devise/models/authenticatable.rb:242:in `find_for_authentication'
+  devise (3.5.10) lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'
+  devise (3.5.10) lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'
+  warden (1.2.6) lib/warden/strategies/base.rb:53:in `_run!'
+  warden (1.2.6) lib/warden/proxy.rb:358:in `block in _run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `each'
+  warden (1.2.6) lib/warden/proxy.rb:353:in `_run_strategies_for'
+  warden (1.2.6) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.6) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (3.5.10) app/controllers/devise/sessions_controller.rb:17:in `create'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+Creating scope :page. Overwriting existing method User.page.
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.9ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (91.0ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (205.0ms)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+
+Started GET "/admin" for ::1 at 2016-09-15 16:22:07 +0900
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 14ms
+
+
+Started GET "/admin/login" for ::1 at 2016-09-15 16:22:07 +0900
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (53.8ms)
+Completed 200 OK in 797ms (Views: 793.1ms)
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 16:22:17 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hrhukAplIgQ8P4v6eYq9JYKWMeq8AZ7M4D/zS6snaS/rexr3Tew8uFD1T5B/q5HE7EL1oc+BWKwEXs6Zzhl77A==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 401 Unauthorized in 8ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hrhukAplIgQ8P4v6eYq9JYKWMeq8AZ7M4D/zS6snaS/rexr3Tew8uFD1T5B/q5HE7EL1oc+BWKwEXs6Zzhl77A==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (67.6ms)
+Completed 200 OK in 398ms (Views: 203.9ms)
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 16:22:20 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VaGmdbs8BF0OQ/HuE3YT/gemX8JRgO13fJTon48odLA4YtIS/LUa4WKJNYQVVz8faXKbiSIAKxeY9dVN6hZmcw==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 401 Unauthorized in 1ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VaGmdbs8BF0OQ/HuE3YT/gemX8JRgO13fJTon48odLA4YtIS/LUa4WKJNYQVVz8faXKbiSIAKxeY9dVN6hZmcw==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (35.3ms)
+Completed 200 OK in 155ms (Views: 154.2ms)
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 16:22:24 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"80jO4kdlEzbWqif8WGjs1V029thgAt+3LaRoLw4Zlciei7qFAOwNirpg45ZeScA0M+IykxOCGdfJxVX9ayeHCw==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 401 Unauthorized in 3ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"80jO4kdlEzbWqif8WGjs1V029thgAt+3LaRoLw4Zlciei7qFAOwNirpg45ZeScA0M+IykxOCGdfJxVX9ayeHCw==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (35.9ms)
+Completed 200 OK in 301ms (Views: 153.1ms)
+
+
+Started POST "/admin/login" for ::1 at 2016-09-15 16:22:27 +0900
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D8pfWeSVYxk3VWW169MmiKa7L3t/mrP1FnJxevUAFNFiCSs+oxx9pVufod/t8gppyG/rMAwadZXyE0yokD4GEg==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 401 Unauthorized in 1ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D8pfWeSVYxk3VWW169MmiKa7L3t/mrP1FnJxevUAFNFiCSs+oxx9pVufod/t8gppyG/rMAwadZXyE0yokD4GEg==", "admin_user"=>{"email"=>"admin@99killertips.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (39.6ms)
+Completed 200 OK in 176ms (Views: 174.8ms)
+
+
+Started GET "/admin/password/new" for ::1 at 2016-09-15 16:22:32 +0900
+Processing by ActiveAdmin::Devise::PasswordsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/passwords/new.html.erb within layouts/active_admin_logged_out (23.0ms)
+Completed 200 OK in 158ms (Views: 157.4ms)
+
+
+Started POST "/admin/password" for ::1 at 2016-09-15 16:22:40 +0900
+Processing by ActiveAdmin::Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dDcPzj2KC4ZDSUL33aOaB2weaCD/YCLUf6rDyhmkywsZ9HupegMVOi+Dhp3bgrbmAsqsa4zg5LSby/4YfJrZyA==", "admin_user"=>{"email"=>"admin@99killertips.com"}, "commit"=>"Reset My Password"}
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/passwords/new.html.erb within layouts/active_admin_logged_out (18.1ms)
+Completed 200 OK in 185ms (Views: 143.6ms)
+
+
+Started GET "/admin/login" for ::1 at 2016-09-15 16:22:43 +0900
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (33.6ms)
+Completed 200 OK in 140ms (Views: 138.0ms)
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+
+Started GET "/admin" for ::1 at 2016-09-15 18:00:49 +0900
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+SyntaxError (/Volumes/Work/Works/99KillerTipsProject/Backend/killertips/app/api/endpoints/accounts.rb:157: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/api/endpoints/accounts.rb:157: syntax error, unexpected keyword_end, expecting end-of-input
+  app/api/api.rb:7:in `<class:API>'
+  app/api/api.rb:1:in `<top (required)>'
+  config/routes.rb:11:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.2ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.0ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (219.5ms)
+
+
+Started GET "/admin" for ::1 at 2016-09-15 18:01:20 +0900
+DEPRECATION WARNING: Kaminari Mongoid support has been extracted to a separate gem, and will be removed in the next 1.0 release. Please bundle kaminari-mongoid gem. (called from block in tsort_each at /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/2.3.0/tsort.rb:228)
+Creating scope :page. Overwriting existing method AdminUser.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Pack.page.
+Creating scope :page. Overwriting existing method Term.page.
+Creating scope :page. Overwriting existing method Tip.page.
+Creating scope :page. Overwriting existing method User.page.
+
+
+Started GET "/admin" for ::1 at 2016-09-15 18:02:24 +0900
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 15ms
+
+
+Started GET "/admin/login" for ::1 at 2016-09-15 18:02:24 +0900
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/gensui/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/active_admin-9d6c25987bda/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (91.5ms)
+Completed 200 OK in 951ms (Views: 942.4ms)
+
+
+Started GET "/assets/active_admin.self-180aa814be70f49e00a796838c945ebaa6dcaf8bc5d4263c3a4ad26889c88ffa.css?body=1" for ::1 at 2016-09-15 18:02:25 +0900
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-15 18:02:25 +0900
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/flash.self-1f5bc4cd1a754a4a8cc8426c39e010bbd40c94351b30f9f636bd825f91d1659c.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-84d8cbe8c39a3a93a115c608dd8d13ee77513b4d6cbf36ccdd83c8517e567a94.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/per_page.self-b17e5cedf398d4a11ce64b7f85759b00b469bd20090c9cc3591698232cd5b5cc.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/popover.self-712c26739bba281c3dfa5a56a0a2ba29e951cdfe6626e66d0c4afe8b05c6f624.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/application.self-3ee24c8b7a313a28f1352e08dc4dc31bd7d4489b6ad5f6331f1f42bbded33a50.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/summernote/summernote.self-60b626ffb7896eae7f720c0fb27b3e1846f17ca6c0253a4da54a25ebb00e0a9b.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin.self-e59108d41774c7637f6559f16b1b00c59e86f43247a159c348a09d518028208b.js?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+
+
+Started GET "/assets/active_admin/print.self-5c206852f0fe857ce36dfdad2829ac6e88f8914a1f93bd8402a4bba5d20c8b16.css?body=1" for ::1 at 2016-09-15 18:02:26 +0900
+DEPRECATION WARNING: to_prepare is deprecated and will be removed from Rails 5.1 (use ActiveSupport::Reloader.to_prepare instead) (called from block in attach_reloader at /Users/admin/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/bundler/gems/active_admin-d4df7c14ebdc/lib/active_admin/application.rb:260)
+DEPRECATION WARNING: to_prepare is deprecated and will be removed from Rails 5.1 (use ActiveSupport::Reloader.to_prepare instead) (called from block in attach_reloader at /Users/admin/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/bundler/gems/active_admin-d4df7c14ebdc/lib/active_admin/application.rb:260)
